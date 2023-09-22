@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+/* #renderCanvas  */
+#renderCanvas  {
+    width: 100%;
+    height: 100%;
+   margin-top: 0;
+    z-index: 2;
+    position: absolute;
+
+}
+a{
+    margin: 4%;
+    padding: 1%;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    color: white; 
+}
+.into{
+    background-color: #0eaf57;
+
+}
+.changeFullS{
+    color: red;
+}
+.test1{
+    color: rgb(7, 101, 241);
+
+    /* position: relative;
+    width: 700px;
+    height: 400px; */
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+head{
+    padding: 0;
+    margin: 0;
+}
+
+.googleDisk{
+    width: 300Px;
+    height: 200px;
+    top: 290px;
+    right: 385px;
+    position: absolute;
+    
+}
+.Video_Test_Mood{
+    
+    top: 100px;
+    right: 385px;
+    position: absolute;
+}
+.test_video{
+    top: 100px;
+    right: 610px;
+    position: absolute;
+}
+.videoInteractive{
+    z-index: 139;
+    position:absolute;
+}
+.PopUp{
+    z-index: 139;
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    top: 10px;
+    right:80px;
+    /* background: src=("img/ice-background11.jpg"); */
+    /* border: 4px solid #2BDACF; */
+    box-sizing: border-box;
+    border-radius: 70px;
+    
+}
+.IMG_popUp{
+    height: 550px;
+    z-index: 11;
+    /* background: linear-gradient(181.33deg, rgba(0, 0, 0, 0.5) 27.63%, rgba(233, 233, 233, 0) 98.86%); */
+}
+.FinishLearn{
+    /* background-image: url("src/assets/img//ice-background11.jpg"); */
+    text-align: center;
+    font-size: 30px;
+    margin: 22%;
+    border-radius: 2%;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    color: seashell;
+    z-index: 10;
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    background-color: #13024e;
+}
+.FL{
+    position: relative;
+    margin-top: 200px;
+    margin-left: -160%;
+}
+.Title1{
+    margin: 0%;
+    top: 0px;
+    right:0px;
+}
+
+.checkBox2{
+    top: -600px;
+right: -80px;
+border-radius: 70px;
+position: absolute;
+width: 31.19px;
+height: 31.19px;
+background: #0eaf57;
+border: 5px solid #feffff;
+    
+}
+.checkBox3{
+border-radius: 100px;
+position: relative;
+width: 31.19px;
+height: 31.19px;
+background: #ff00ea;
+border: 8px solid #feffff;
+    
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Oswald', sans-serif;
+    color: seashell;
+    
+    }
+p{
+    font-family: 'Oswald', sans-serif;
+    color: seashell;
+    position: relative;
+    top: -370px;
+    right:-10px;
+}
+
+
+/* ///////////////////////////////////////PopUpLerning mood......... */
+.scroll_bg{
+    width: 600px;
+    margin: 10% auto;
+    /* background: rgb(24, 114, 173);  */
+    position: absolute;
+    top: -20px;
+    right:-220px;
+    padding: 20px;
+    border-radius:60px;
+}
+.scroll_div{
+width: 600px;
+/* background: rgb(24, 114, 173);    */
+height: 370px; 
+overflow: hidden;
+overflow-y: scroll;
+border-radius:60px;
+}
+.scroll_object{
+    color: seashell;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+
+}
+
+.Title{
+    position: relative;
+    top: -550px;
+    right:-70px;
+}
+button{
+    text-decoration: none;
+font-family: 'Oswald', sans-serif;
+font-size: large;
+width: 172px;
+height: 46px;
+background: #FFFFFF;
+border: 4px solid #2EB4A3;
+border-radius: 70px;
+position: relative;
+top: -170px;
+right:-550px;
+}
+.continue{
+    right: -560px;
+    z-index: 10;
+    position: relative;
+  
+}
+.MoreAbout{
+    color: black;
+padding: 1%;
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+font-size: large;
+width: 172px;
+height: 46px;
+background: #FFFFFF;
+border: 4px solid #2EB4A3;
+border-radius: 70px;
+position: relative;
+top: -170px;
+right:-550px;
+}
+.number_of_mesh{
+    margin-top: -30px;
+    margin-left: 10%;
+    top: -0px;
+    margin-right: 150px;
+    position: relative;
+}
+/* .title{
+    width: 500px;
+    padding-top:0; 
+    right: -400px;
+    position: relative;
+    z-index: 3;
+} */
+.Block_Learn__mood_add_element{
+    position: absolute;
+    width: 500px;
+   margin: 3%;
+    z-index: 3;
+}
+.ImgLearning_Mood{
+    z-index: 2;
+    position: absolute;
+    top: 80px;
+    right: 400px;
+    width: 40%;
+    height: 40%;
+    background-image:url("https://www.microscope.com/web/image/product.template/102/image_1024?unique=5245a52");
+    background-size: contain;
+    background-repeat: no-repeat ;
+}
+.ImgLearning_Mood2{
+    background-image:url("https://www.microscope.com/web/image/product.template/102/image_1024?unique=5245a52");
+}
+.Conteiner{
+    max-width: 1200px;
+    margin-top: 10px;
+    margin-left: 10%;
+    /* width:100% ; */
+    height: 100%;
+    position: relative; 
+
+    z-index:10;
+    justify-content: space-between;
+  
+}
+.header{
+    width: 100%;
+    height: 8%;
+    /* background-image: url("https://s3-alpha-sig.figma.com/img/f572/fd9d/73e5e4fac65acfda2b0f11f89baec485?Expires=1635120000&Signature=JiXBG3WyGw1Bha4Xu5kBWsMp2B2xjMpm3HhGhXmczIpBWYzRefMrM4de58n1I1mvuGBZmYd5c1CRBfdeG50o-2T2JNFzM2mWiCnAOaP-Ym67tn8r0kSmMwBEoxell1j8xudqhMPVGDFiZZkLYqgHRrqWCVih606N1yN~yhs87girkNuDuKfhK9GFWUcqPXWHq0S5RlLS4Yx-gXx4iMTJ0xrTerduP3mbtMEV6U4DeYaDqKpes3UNWqNUF~HQ-8NAHB5WtV30-e65hcyOuY-9rOE2dsnW13to~U~tYEP0AlqhonifTk~ImW2vN1lUvO~6kEejO55BhasVOEm6ZsacsA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"); */
+    position:fixed; 
+    background-color: #33334B;
+    margin-top: -30px;
+    margin-left: 0%;
+    z-index: 11;
+
+}
+.loadWindow{
+    background-image: url("src\assets\Selected_images_for_background\LoadWindow.gif");
+    margin-left: -1%;
+    margin-top: -1%;
+    background-color: #2EB4A3 ;
+    width: 105%;
+    height: 90%;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    text-align: center;
+    font-size: 10%;
+
+}
+.titleLoadWindow{
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+font-size: large;
+text-align: center;
+font-size: 40px;
+color: #ff00007a;
+position: absolute;
+height: 0%;
+z-index: 102;
+margin-left: 30%;
+margin-top:2% ;
+}
+.imgMicroscop{
+    position: relative;
+    width: 40%;
+    height: 40%;
+}
+.FooterLoad{
+    z-index: 102;
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background-color: #ffffff;
+    margin-top: 35%;
+    padding-top: 1%;
+}
+.logoPlace{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    /* background-image:url("src/assets/logoUniversity/daad.png") ; */
+    
+}
+
+.Nure{
+    margin-left: -45%;
+    padding-right: 0%;
+}
+.Daad{
+    margin-top:  0%;
+    margin-left: -9%;
+}
+.BMF{
+    margin-top:  -2.5%;
+    margin-left: -4.5%;
+}
+.Luh{
+    margin-left: 21%;
+}
+.LuhUniverity{
+    margin-left: 30%;
+}
+
+
+
+.ImgLogo{
+    position: absolute;
+    
+
+}
+
+.wraper{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    position: absolute;
+    margin-top: 0;
+    padding: 0;
+    z-index: 100;
+    justify-content: space-between;
+    background-color: #3030d8; 
+}
+.rightSide{
+    display: flex;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    margin:-10%;
+    background-color: #20202E;
+    z-index: 20;
+
+}
+.logo{
+    margin-top: 1%;
+    margin-left: -0.4%;
+    position: absolute;
+    height: 120%;
+    width: 11.3%;
+    background-repeat: no-repeat;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/be/Leibniz-Universit%C3%A4t_Hannover.png");
+   background-size: contain;
+}
+/* .picture_logo{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+     background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/be/Leibniz-Universit%C3%A4t_Hannover.png");
+} */
+.sideButton{
+z-index: 30;
+position: relative;
+padding-left:6% ;
+width: 100%;
+height:  55px;
+padding-top: -10%;
+box-sizing: border-box;
+background-repeat: no-repeat;
+/* background-image: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/manual-1662252-1412024.png"); */
+/* left: 39px;
+top: 396px; */
+background-color:rgb(0, 132, 255);
+transition-duration: 1s;    
+}
+.sideButton:hover{
+    background-color: #0e34af;
+}
+.NewAnchor{
+    margin-top: 5%;
+}
+
+.Learn_Mood_Button{
+    margin-top: 5%;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    padding: 10px;
+    background-color:rgb(0, 132, 255);
+}
+.Learn_Mood_Button:hover{
+    background-color: #0e34af;
+
+}
+
+.button_stack{
+    color: rgb(253, 253, 253);
+    margin-top: 140%;
+    z-index: 30;
+    position: relative;
+    width: 90%;
+    height:  60%;
+    margin-left: 20px;
+    
+   
+    background-color:#11111b;
+}
+.GlobalMenu{
+    
+    margin-left: -1%;
+    margin-top: -1%;
+    width: 99%;
+    height: 101.9%;
+    z-index: 90;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    text-align: center;
+    font-size: 10%;
+    
+
+}
+.ButtonGlob{
+    
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    width: 172px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 4px solid #010f5e;
+    border-radius: 70px;
+  
+    
+    
+}
+.ButtoneExplore{
+    margin-left: 50%;
+    margin-top: -13%;
+}
+.RightSideMenu{
+    width: 20%;
+    height: 100%;
+    background-color: #010f5e;
+    z-index: 3;
+    position: relative;
+    
+}
+.GlobalImageStack{
+    padding-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: #010f5e;
+    z-index: 3;
+    position: relative;
+}
+.ImageGlobal{
+     width: 100%;
+    height: 36%;
+    background-repeat: no-repeat    ;
+    background-size: contain;
+    
+    position: relative;
+    margin-top: 5%;
+}
+.ImageGlobal:hover{ 
+    border: 2px dashed rgb(255, 255, 255);  
+    width: 104%;
+    height: 40%;
+}
+
+.LeftMenu{
+    position: relative;
+    margin-left: 82.4%;
+    margin-top: -49%;
+    width: 20%;
+    height: 100%;
+    background-color: #010f5e;
+    z-index: 3;
+
+}
+.FooterButton{
+    position: relative;
+    margin-top: -9.5%;
+    width: 90%;
+    height: 20%;
+    background-color: #010f5e;
+    z-index: 2;
+}
+.Global_button{
+    /* position: relative; */
+    margin-left: 46%;
+    padding: 1%;
+    width: 30%;
+    display: flexbox;
+    height: 60%;
+    background-color: #0004e6;
+
+}
+.ChoiceMood{
+height: 20%;
+width: 99%;
+background-color: blueviolet;
+position: relative;
+margin:-10%;
+
+}
+.LogoLoad{
+    margin-top: -1.4%;
+    width: 15%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+}
+.LogoDaad{
+    box-sizing: border-box;
+}
+.aff{
+    background-color: #3030d8;
+}
+.question_block{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: #0eaf57; */
+    z-index: 4;/*off
+    /* opacity: 0.1; */
+}
+.button_elem{
+    border: 4px solid #e91717;
+    
+    border-radius: 70px;
+    padding-top: 0%;
+    color: #f31818;
+    text-align: center;
+    border-radius: 100%;
+    width: 3%;
+    height: 4%;
+    position: absolute;
+    font-size: 150%;
+    font-weight: bolder;
+   
+    
+}
+.button_elem2{
+    border-radius: 70px;
+    padding-top: 0%;
+    color: #18f39f;
+    text-align: center;
+    border-radius: 100%;
+    width: 3%;
+    height: 4%;
+    position: absolute;
+    font-size: 150%;
+    font-weight: bolder;
+    
+}
+.pipeties{
+   margin-top: 29%;
+   margin-left: 16%;
+}
+.Powerunit{
+   margin-top: 13%; 
+   margin-left: 70%;
+}
+.Linkam_LNP{
+    margin-top: 17%;
+    width: 2%;
+    height: 3%;
+    margin-left: 70%;
+   
+ }
+ .Linkam_VC_94{
+    margin-top: 19.5%;
+    margin-left: 70%;
+    
+    width: 2%;
+    height: 3%;
+
+ }
+ .Linkam_TM594_001{
+    margin-top: 22%;
+    margin-left: 70%;
+
+ }
+ .Microcope{
+    margin-top: 9%;
+    margin-left: 54%;
+ }
+ .objectives{
+    margin-top: 15%;
+    margin-left: 54%;
+ }
+ .Camera_001{
+    margin-top: 2%;
+    margin-left: 55%;
+   
+ }
+ .Linkam_baugruppe{
+    margin-top: 20%;
+    margin-left: 55%;
+    width: 2%;
+    height: 3%;
+    
+ }
+ .Gesamtaufbau_Test_without_movables{
+    margin-top: 16%;
+    margin-left: 32%;
+ }
+ /* .Pipetten_002{
+    margin-top: 10%;
+    margin-left: 15%;
+ }
+ .Pipettenständer{
+    margin-top: 10%;
+    margin-left: 15%;
+ } */
+ .Styroporbox{
+    margin-top: 29%;
+    margin-left: 9%;
+ }
+ .Reaktionsgefäßständergruppee{
+    margin-top: 35%;
+    margin-left: 6%;
+   
+ }
+ .LN2_tank{
+    margin-top: 18%;
+    margin-left: 42%;
+ }
+ .bebra{
+     
+     color: rgb(255, 255, 255);
+     margin-top: 15%;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    padding: 10px;
+    background-color:red;
+ }
+ .changeButtTrue{
+    border-color: #00FF7F;
+    color:#00FF7F;
+    
+ }
+ .cogHELP{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    border-radius: 12%;
+    border: 4px solid #0deafa;
+   margin: 3%;
+    z-index: 3;
+    background-position: 10%;
+    background-color: #3030d8;
+    color:white;   
+ }
+ .ElemSupport{
+     margin:3%;
+    width: 100px;
+    height: 100px;
+    background-image:url('https://cdn-icons.flaticon.com/png/512/1321/premium/1321740.png?token=exp=1639549535~hmac=889c1ecd06f25e03031fcf23bb4520f1'); 
+  background-size: cover;
+}
+.TitleSuport{
+   margin-top: -24%;
+   margin-left: 25%; 
+   /* background-color: rgb(96, 112, 202);
+   opacity: 11; */
+}
+.textSuport{
+    margin-top: -24%;
+   margin-left: 25%; 
+}
+
+
+

@@ -1,0 +1,205 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<html>
+    <head>
+        <meta name="viewport" content="widht=device-widht">
+     <meta charset="utf-8">
+     <!-- <title>Тег DIV</title> -->
+     <style type="text/css">
+      .block1 { 
+       width: 200px; 
+       background: #ccc;
+       padding: 5px;
+       padding-right: 20px; 
+       border: solid 1px rgb(85, 84, 84); 
+       float: left;
+      }
+      .block2 { 
+       width: 200px; 
+       background: #fc0; 
+       padding: 5px; 
+       border: solid 1px black; 
+       float: left; 
+       position: relative; 
+       top: 229px; 
+       left: -40px; 
+      }
+     </style> 
+     
+     <script type="text/javascript" src="assets/data.json"></script>
+     <script type="text/javascript" src="app.component.ts"></script>
+     <script src="./bundle-data.js"></script>
+     <script src="script.js"></script>
+    
+     <!-- <script type="text/javascript" src="src\assets\script.js"></script> -->
+               
+    </head>
+    <body >
+       
+    <div class="wraper">
+        <div  onclick="off()" class="loadWindow" id="loadWindow"> 
+            <div class="titleLoadWindow">Virtual Laboratory Cryomicroscopy
+
+            </div>
+            <div class="FooterLoad">
+                <div class="logoPlace">
+
+                
+                    <img src="assets/logoUniversity/nureLogo.png" width="250" height="100" class="ImgLogo  Nure">      
+                    <img  src="assets/logoUniversity/daad.png"    width="100" height="60" class="ImgLogo  Daad">
+                    <img src="assets/logoUniversity/BMBF_Logo_svg.png" width="250" height="200" class="ImgLogo  BMF">
+                    <img src="assets/logoUniversity/story2Artboard.png" width="150" height="100" class="ImgLogo Luh">
+                    <img src="assets/logoUniversity/Artboard.png" width="250" height="100" class="LuhUniverity  ImgLogo">
+                    
+                </div>
+            </div>
+            
+        </div>
+        <!-- ------------------------GlobalMenu ---------->
+        <div   class="GlobalMenu" id="GlobalMenu1">
+
+            <div class="RightSideMenu">
+                    <div class="GlobalImageStack">
+                        <div class="ImageGlobal"></div>
+                        <div class="ImageGlobal"></div>
+                        <div class="ImageGlobal" id="wss"></div>
+                    </div>
+            </div>
+            <div class="LeftMenu" >
+                <div class="GlobalImageStack">
+                    <div class="ImageGlobal"></div>
+                    <div class="ImageGlobal"></div>
+                    <div class="ImageGlobal"></div>
+                    
+                </div>
+
+            </div>
+            <div class="FooterButton">
+                <div class="Global_button">
+                    <div class="ButtonGlob" onclick="CloseGlobalMenu() ">
+                            Learn
+                    </div>
+                    <div class="ButtonGlob  ButtoneExplore">
+                      Explore
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <!--//////////// End Clobal menu////////////////// -->
+        <div  class="header" >
+            <div class="logo">
+                
+            </div>
+
+
+        </div>
+            <div id="Body" class="Conteiner">
+
+                <canvas id="renderCanvas" class="changeFullScreen"  ></canvas>
+                <div   id="af" class="aff" >
+                <div hidden  id="question_block" class="question_block" >
+                        <div onclick="pipeties()" class="button_elem  pipeties"  >?</div>
+                        <div onclick="Powerunit()" class="button_elem  Powerunit"  >?</div>
+                        <div onclick="Linkam_LNP()" class="button_elem  Linkam_LNP"  >?</div>
+                        <div onclick="Linkam_VC_94()" class="button_elem  Linkam_VC_94"  >?</div>
+                        <div onclick="Linkam_TM594_001()" class="button_elem  Linkam_TM594_001"  >?</div>
+                        <div onclick="Microcope()" class="button_elem  Microcope"  >?</div>
+                        <div onclick="objectives()" class="button_elem  objectives"  >?</div>
+                        <div onclick="Camera_001()" class="button_elem  Camera_001"  >?</div>
+                        <div onclick="Linkam_baugruppe()" class="button_elem  Linkam_baugruppe"  >?</div>
+                        <div  onclick="Gesamtaufbau_Test_without_movables()"  class="button_elem  Gesamtaufbau_Test_without_movables"  >?</div>
+                        <!-- <div onclick="changeButtStyle()" class="button_elem  Pipetten_002"  >?</div> -->
+                        <!-- <div onclick="changeButtStyle()" class="button_elem  Pipettenständer"  >?</div> -->
+                        <div onclick="Styroporbox()" class="button_elem  Styroporbox"  >?</div>
+                        <div onclick="LN2_tank()" class="button_elem  LN2_tank"  >?</div>
+                        <div  onclick="Reaktionsgefäßständergruppee()" class="button_elem  Reaktionsgefäßständergruppee"  >?</div>
+                </div> 
+            </div>  
+           
+            <div class="cogHELP" id="cogHELP" hidden>
+                
+               
+            <div class="ElemSupport"></div>
+            <h2 class="TitleSuport">Support <br>Leave us a letter in the mail:<br>Support@gmail.com</h2>
+            <p class="textSuport">Leave us a letter in the mail</p>
+            </div>
+            <iframe hidden class="videoInteractive" width="560" height="315" src="https://www.youtube.com/embed/W5opbWtFMuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+            <div hidden class="Block_Learn__mood_add_element" id="Learn__mood_add_element">
+                <h2 class="title ">Explore what a microscope is made of</h2>
+            <div    id="checkBox"> </div>
+                <p class="number_of_mesh" id="number_of" ></p>
+                </div>
+        <div hidden id="PopUp" class="IMG_popUp" >
+            <div id="ImgLearning_Moo" class="ImgLearning_Mood" class="ImgLearning_Mood"></div>
+            <img id="PopUp" class="IMG_popUp" src="assets/img/ice-background11.png"> 
+            <h1  id="title" class ="Title"> Ready to continue training?</h1>
+            <div class="scroll_bg">
+                <div class="scroll_div">
+                    <div id="text" class="text" class="scroll_object">
+                       
+                    </div>
+                
+                </div>
+            </div>
+            
+            <!-- <iframe  id="openVideo" class="googleDisk" src="https://drive.google.com/file/d/1bkbiIqxel-nx3MCk_B9JU7EEnIrvhaP6/preview" width="140" height="80" allow="autoplay"></iframe> -->
+            <iframe id="openVideo" class="googleDisk" width="560" height="315" src="https://drive.google.com/file/d/1oyer2fseTrp6jtYCxmBhoSY5oxFi-EEO/preview" allow="autoplay"></iframe>
+            <a target="_blank" class="MoreAbout" id="More_about_button" href="https://drive.google.com/file/d/1vHnrAQUiBihzR_tEmReudtHzIAbKHGU5/view?usp=sharing" id="button_cancel" onclick="OffPopUp()" >More about... </a>
+            <button id="button_continue" class="continue" >Continue</button>
+        </div>
+        <div hidden class="FinishLearn">
+           
+            <p class="Title1">You have successfully completed the tutorial mode. Check out the other modes.</p>
+            <button  class="continue  FL" >Continue</button>
+        </div>
+     <div class="rightSide"> 
+         
+         <div class="button_stack">
+            <p>Menu</p>
+        <div  margin="150px"   class=" Learn_Mood_Button" onclick="ButtonIntroduction()"> Introduction to cryomicrosocpy  </div>
+        <div  margin="100px" class="sideButton  NewAnchor"  ><a target="_blank" href="https://drive.google.com/file/d/1jd69ogG6BYV9-k4llf0mywE3laWp0Daq/view?usp=sharing" >Structure and main parts</a>  </div>
+        <div  class="sideButton" class="Learn_Mood_Button" id="LearnOpen">Interactive education </div>
+        <div  class="sideButton" class="Learn_Mood_Button" id="explore"><a  a target="_blank" href="https://drive.google.com/file/d/14IWvZjqMp0VxYzqFFi2Zdd-kV-pNiLPi/view?usp=sharing" >Working instructions  </a> </div>
+    </div>
+     </div>
+     
+     <!-- <a href="https://drive.google.com/file/d/16I50uZfoRvwaSCLXgXuNJe0v-JHdSO_G/view" >adad</a> -->
+    
+    <!-- <iframe hidden    class="test_video" id="test_video" width="560" height="315" src="https://www.youtube.com/embed/Y4EHLLZm4Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe hidden id="openVideo1" class="Video_Test_Mood " src="https://drive.google.com/file/d/1bkbiIqxel-nx3MCk_B9JU7EEnIrvhaP6/preview" width="640" height="480" allow="autoplay"></iframe>
+        <iframe hidden    class="test_video" id="test_video"  src="https://drive.google.com/file/d/1ND_jmzeJqtm-Tzg6akSDPvxdQXO9jbVC/preview" width="640" height="480" allow="autoplay"></iframe>
+    </div>
+        
+    </div>
+    </body>
+   
+    
+   </html>
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+<router-outlet></router-outlet>
