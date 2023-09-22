@@ -1,2 +1,2 @@
-# hello-word
-just fo fun
+# Hanover Universe
+3D virtual lab
